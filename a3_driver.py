@@ -85,7 +85,7 @@ def print_score(players):
 words_file = askopenfile(mode='r', title='Select word list file')
 words = a3.read_words(words_file)
 words_file.close()
-
+print (words)
 board_file = askopenfile(mode='r', title='Select board file')
 board = a3.read_board(board_file)
 board_file.close()
